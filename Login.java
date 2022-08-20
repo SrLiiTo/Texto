@@ -42,7 +42,7 @@ public class Login extends javax.swing.JFrame {
         String correo = txtCorreo.getText();
         String pass = String.valueOf(txtPass.getPassword());
         if (!"".equals(correo) || !"".equals(pass)) {
-            
+ // s olonombres
             lg = login.log(correo, pass);
             if (lg.getCorreo()!= null && lg.getPass() != null) {
                 barra.setVisible(true);
