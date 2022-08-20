@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
+import java.object.doc.txt
 
 public class Login extends javax.swing.JFrame {
     login lg = new login();
