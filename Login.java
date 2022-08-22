@@ -9,8 +9,6 @@ import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
 
-
-import
 public class Login extends javax.swing.JFrame {
     login lg = new login();
     LoginDAO login = new LoginDAO();
